@@ -77,7 +77,7 @@ public class Player {
 
 			hand[i].faceUp = (type == PlayerType.human);
 
-			hand[i].eventualSortORder = i*4;
+			hand[i].eventualSortOrder = i*4;
 			//hand[i].SetSortOrder(i*4);
 		}
 	}
@@ -112,7 +112,7 @@ public class Player {
 	}
 
 	public void CBCallback(CardBartok tCB){
-		Utils.tr (Utils.RoundToPLaces (Time.time), "Player.CBCallback()", tCB.name, "Player " + playerNum);
+		Utils.tr (Utils.RoundToPlaces (Time.time), "Player.CBCallback()", tCB.name, "Player " + playerNum);
 
 		Bartok.S.PassTurn ();
 	}
