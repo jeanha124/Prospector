@@ -36,7 +36,7 @@ GUIText:
   m_GameObject: {fileID: 163606}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: 'Your final score was: 40'
+  m_Text: 'Your final score was: 72'
   m_Anchor: 1
   m_Alignment: 1
   m_PixelOffset: {x: 0, y: -55}
